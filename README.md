@@ -26,5 +26,18 @@
     where the signal phase is given by:
 
    -  **θn** = (2n−1)π4————−(2)
+## Diagrams Generation Steps:
+1. Place blocks in order to get signal from Random integer Generator then Modulate it,then add Channel Noise then Demoulate it .
+2. Add Consultation Diagram Block before and after Channel (Noise addition).
+3. Run Program.
+
+## Figures Generation Steps:
+1. After Finishing demodulation add Error Rate Calculation block to calculate Error.
+2. Add simout (Simulation Output) block to Generate BER figure.
+3. open bertools .
+4. Determine required range and press plot in theroretical bar.
+4. shift to Monte Carlo bar Add .slx file and choose ber block name.
+5. Set required Range for Eb/No.
+6. then press run.
 
 
