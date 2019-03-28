@@ -89,7 +89,7 @@
 ![ BER Diagram ](/FSK/FSK_BER.PNG)
 
  ### Raised Cosine Modification Diagram :
- ![ BER Diagram ](/FSK/FSKCosine.PNG)
+ ![ BER Diagram ](/FSK/FSK-COM.PNG)
     
 ## QAM
 - Quadrature amplitude modulation (QAM) is the name of a family of digital modulation methods and a related family of analog modulation methods widely used in modern telecommunications to transmit information. It conveys two analog message signals, or two digital bit streams, by changing (modulating) the amplitudes of two carrier waves, using the amplitude-shift keying (ASK) digital modulation scheme or amplitude modulation (AM) analog modulation scheme. The two carrier waves of the same frequency are out of phase with each other by 90°, a condition known as orthogonality and as quadrature.
@@ -227,5 +227,7 @@
 3. open bertools .
 4. Determine required range and press plot in theroretical bar.
 4. shift to Monte Carlo bar Add .slx file and choose ber block name.
-5. Set required Range for Eb/No (-10:0.5:10).
+5. Set required Range for Eb/No.
 6. then press run.
+
+
