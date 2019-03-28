@@ -157,6 +157,8 @@
     - Simulation Output :
         1. Limit data points to last = 2
         2. Save Formate = 2-D array
+
+## QAM64 :
  ### Input Signal :
 ![Input Signal](/QAM/QAM64BeforeNoise.PNG)
 
