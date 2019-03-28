@@ -229,7 +229,7 @@
 3. open bertools .
 4. Determine required range and press plot in theroretical bar.
 4. shift to Monte Carlo bar Add .slx file and choose ber block name.
-5. Set required Range for Eb/No.
+5. Set required Range for Eb/No (-10:0.5:10).
 6. then press run.
 
 
