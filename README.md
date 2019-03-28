@@ -45,10 +45,10 @@
 ### Signal After Adding Noise :
 ![Signal After Ading Noise](/BPSK/BPSKAfterNoise.PNG)
 
-### BER Diagram :
+### BPSK BER Diagram :
 ![ BER Diagram ](/BPSK/BPSK_BER.PNG)
 
- ### Raised Cosine Modification Diagram :
+ ### BPSK Raised Cosine Modification Diagram :
  ![ BER Diagram ](/BPSK/BPSK-COM.PNG)
     
       
@@ -85,10 +85,10 @@
  ### Signal After Adding Noise :
 ![Signal After Ading Noise](/FSK/FSKAfterNoise.PNG)
 
- ### BER Diagram :
+ ### FSK BER Diagram :
 ![ BER Diagram ](/FSK/FSK_BER.PNG)
 
- ### Raised Cosine Modification Diagram :
+ ### FSK Raised Cosine Modification Diagram :
  ![ BER Diagram ](/FSK/FSK-COM.PNG)
     
 ## QAM
@@ -130,10 +130,10 @@
  ### Signal After Adding Noise :
 ![Signal After Adding Noise](/QAM/QAM16AfterNoise.PNG)
 
- ### BER Diagram :
+ ### QAM16 BER Diagram :
 ![ BER Diagram ](/QAM/QAM16_BER.PNG)
 
-### Raised Cosine Modification Diagram :
+### QAM16 Raised Cosine Modification Diagram :
  ![ BER Diagram ](/QAM/QAM16-COM.PNG)
 
  ##### Design Parameters:
@@ -165,10 +165,10 @@
  ### Signal After Adding Noise :
 ![Signal After Adding Noise](/QAM/QAM64AfterNoise.PNG)
 
- ### BER Diagram :
+ ### QAM64 BER Diagram :
 ![ BER Diagram ](/QAM/QAM64_BER.PNG)
 
-### Raised Cosine Modification Diagram :
+### QAM64 Raised Cosine Modification Diagram :
  ![ BER Diagram ](/QAM/QAM64-COM.PNG)
 
 
@@ -189,12 +189,12 @@
         2. Source Speed = AUTO
         3. Sample Time = 1
         4. Samples Per Frame = 1000
-    - QAM16 Modulator :
+    - QPSK Modulator :
         1. M-array = 64
         2. Consultation ordering = Binary
     - AWGN Channel :
         2. Intial Speed  = 67
-    - QAM16 Demodulator :
+    - QPSK Demodulator :
         1. M-array = 4
         2. Consultation ordering = Binary
     - Error Rate Calculation :
@@ -209,10 +209,10 @@
  ### Signal After Adding Noise :
 ![Signal After Adding Noise](/QPSK/QPSKAfterNoise.PNG)
 
- ### BER Diagram :
+ ### QPSK BER Diagram :
 ![ BER Diagram ](/QPSK/QPSK_BER.PNG)
 
-### Raised Cosine Modification Diagram :
+### QPSK Raised Cosine Modification Diagram :
  ![ BER Diagram ](/QPSK/QPSK-COM.PNG)
 
 ### Overall Diagram :
